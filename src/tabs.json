@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Burgers",
+        "path": "/"
+    },
+    {
+        "name": "Hot dogs",
+        "path": "/hotdogs"
+    },
+    {
+        "name": "Snacks",
+        "path": "/snacks"
+    },
+    {
+        "name": "Shawarma",
+        "path": "/shawarmas"
+    },
+    {
+        "name": "Pizza",
+        "path": "/pizzas"
+    },
+    {
+        "name": "Deserts",
+        "path": "/deserts"
+    },
+    {
+        "name": "Sauces",
+        "path": "/sauces"
+    }
+]

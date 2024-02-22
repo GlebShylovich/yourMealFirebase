@@ -1,0 +1,655 @@
+[
+  {
+    "burgers": {
+      "title": "Burgers",
+      "items": [
+        {
+          "id": 1,
+          "name": "Rancher's Choice",
+          "price": 12.99,
+          "weight": 200,
+          "ingredients": {
+            "bun": "rye",
+            "meat": "beef",
+            "cheese": "cheddar",
+            "tomato": "tomato",
+            "lettuce": "lettuce",
+            "onion": "onion",
+            "sauce": "barbecue"
+          },
+          "desc": "A classic Rancher's Choice burger with savory beef, cheddar cheese, fresh vegetables, all nestled in a hearty rye bun, topped with flavorful barbecue sauce.",
+          "calories": 650
+        },
+        {
+          "id": 2,
+          "name": "Wheaty Chicken Bliss",
+          "price": 14.99,
+          "weight": 220,
+          "ingredients": {
+            "bun": "whole wheat",
+            "meat": "chicken",
+            "cheese": "gouda",
+            "tomato": "tomato",
+            "cucumber": "cucumber",
+            "red onion": "red onion",
+            "sauce": "mustard-honey"
+          },
+          "desc": "Indulge in the Wheaty Chicken Bliss, featuring succulent chicken, gouda cheese, crisp vegetables, all embraced by a wholesome whole wheat bun, complemented with zesty mustard-honey sauce.",
+          "calories": 540
+        },
+        {
+          "id": 3,
+          "name": "Sesame Lamb Feast",
+          "price": 18.99,
+          "weight": 250,
+          "ingredients": {
+            "bun": "sesame",
+            "meat": "lamb",
+            "cheese": "feta",
+            "bell pepper": "bell pepper",
+            "olives": "olives",
+            "watercress": "watercress",
+            "sauce": "tomato"
+          },
+          "desc": "Experience the Sesame Lamb Feast, a delectable combination of lamb, feta cheese, vibrant vegetables, all enclosed in a sesame bun, enriched with tangy tomato sauce.",
+          "calories": 720
+        },
+        {
+          "id": 4,
+          "name": "Potato Pork Gala",
+          "price": 13.99,
+          "weight": 180,
+          "ingredients": {
+            "bun": "potato",
+            "meat": "pork",
+            "cheese": "gouda",
+            "cabbage": "cabbage",
+            "tomato": "tomato",
+            "cucumber": "cucumber",
+            "sauce": "sour cream"
+          },
+          "desc": "Savor the Potato Pork Gala, featuring tender pork, gouda cheese, crisp vegetables, all embraced by a unique potato bun, enhanced with creamy sour cream sauce.",
+          "calories": 610
+        },
+        {
+          "id": 5,
+          "name": "Multigrain Duck Elegance",
+          "price": 22.99,
+          "weight": 230,
+          "ingredients": {
+            "bun": "multigrain",
+            "meat": "duck",
+            "cheese": "brie",
+            "arugula": "arugula",
+            "grilled pepper": "grilled pepper",
+            "red onion": "red onion",
+            "sauce": "honey-mustard"
+          },
+          "desc": "Indulge in the Multigrain Duck Elegance, featuring succulent duck, brie cheese, flavorful vegetables, all embraced by a multigrain bun, complemented with a luscious honey-mustard sauce.",
+          "calories": 680
+        },
+        {
+          "id": 6,
+          "name": "Nutty Turkey Symphony",
+          "price": 16.99,
+          "weight": 190,
+          "ingredients": {
+            "bun": "prune-walnut",
+            "meat": "turkey",
+            "cheese": "gruyere",
+            "avocado": "avocado",
+            "tomato": "tomato",
+            "mixed greens": "mixed greens",
+            "sauce": "cipollini"
+          },
+          "desc": "Experience the Nutty Turkey Symphony, a harmonious blend of turkey, gruyere cheese, fresh vegetables, all enclosed in a unique prune-walnut bun, enriched with savory cipollini sauce.",
+          "calories": 590
+        }
+      ]
+    },
+    "hotdogs": {
+      "title": "Hot-Dogs",
+      "items": [
+        {
+          "id": 7,
+          "name": "Classic Frankfurter",
+          "price": 5.99,
+          "weight": 150,
+          "ingredients": {
+            "sausage": "beef",
+            "mustard": "mustard",
+            "ketchup": "ketchup",
+            "diced onions": "diced onions",
+            "bun": "soft"
+          },
+          "desc": "Indulge in the timeless Classic Frankfurter featuring a succulent beef sausage adorned with classic toppings like mustard, ketchup, and diced onions, all nestled in a soft bun.",
+          "calories": 350
+        },
+        {
+          "id": 8,
+          "name": "Gourmet Bratwurst Delight",
+          "price": 7.99,
+          "weight": 180,
+          "ingredients": {
+            "sausage": "bratwurst",
+            "sauerkraut": "sauerkraut",
+            "Dijon mustard": "Dijon mustard",
+            "caraway seeds": "caraway seeds",
+            "bun": "pretzel"
+          },
+          "desc": "Elevate your taste buds with the Gourmet Bratwurst Delight featuring a flavorful bratwurst sausage topped with sauerkraut, Dijon mustard, and caraway seeds, all embraced by a pretzel bun.",
+          "calories": 420
+        },
+        {
+          "id": 9,
+          "name": "Chili Cheese Dawg",
+          "price": 6.99,
+          "weight": 160,
+          "ingredients": {
+            "sausage": "spicy",
+            "chili": "chili",
+            "cheddar cheese": "cheddar cheese",
+            "chopped green onions": "chopped green onions",
+            "bun": "sesame seed"
+          },
+          "desc": "Spice up your day with the Chili Cheese Dawg, a zesty sausage topped with chili, cheddar cheese, and chopped green onions, all enclosed in a sesame seed bun.",
+          "calories": 380
+        },
+        {
+          "id": 10,
+          "name": "BBQ Bacon Ranch Dog",
+          "price": 8.49,
+          "weight": 170,
+          "ingredients": {
+            "sausage": "savory",
+            "crispy bacon": "crispy bacon",
+            "barbecue sauce": "barbecue sauce",
+            "ranch dressing": "ranch dressing",
+            "shredded lettuce": "shredded lettuce",
+            "bun": "toasted"
+          },
+          "desc": "Savor the richness of the BBQ Bacon Ranch Dog, featuring a savory sausage topped with crispy bacon, barbecue sauce, ranch dressing, and shredded lettuce, all embraced by a toasted bun.",
+          "calories": 480
+        },
+        {
+          "id": 11,
+          "name": "Mexican Street Dog",
+          "price": 7.49,
+          "weight": 150,
+          "ingredients": {
+            "sausage": "zesty",
+            "grilled jalapeños": "grilled jalapeños",
+            "diced tomatoes": "diced tomatoes",
+            "onions": "onions",
+            "cilantro": "cilantro",
+            "chipotle mayo": "chipotle mayo",
+            "bun": "corn tortilla"
+          },
+          "desc": "Take a flavorful journey with the Mexican Street Dog, a zesty sausage adorned with grilled jalapeños, diced tomatoes, onions, cilantro, and chipotle mayo, all wrapped in a corn tortilla.",
+          "calories": 420
+        },
+        {
+          "id": 12,
+          "name": "Hawaiian Luau Dog",
+          "price": 9.99,
+          "weight": 200,
+          "ingredients": {
+            "sausage": "tropical",
+            "grilled pineapple ring": "grilled pineapple ring",
+            "teriyaki glaze": "teriyaki glaze",
+            "crispy bacon": "crispy bacon",
+            "green onions": "green onions",
+            "bun": "Hawaiian roll"
+          },
+          "desc": "Transport your taste buds to a tropical paradise with the Hawaiian Luau Dog, featuring a tropical sausage topped with a grilled pineapple ring, teriyaki glaze, crispy bacon, and green onions, all on a Hawaiian roll.",
+          "calories": 550
+        }
+      ]
+    },
+    "snacks": {
+      "title": "Snacks",
+      "items": [
+        {
+          "id": 13,
+          "name": "Crispy Nacho Bites",
+          "price": 9.99,
+          "weight": 100,
+          "ingredients": [
+            "tortilla chips",
+            "cheddar cheese",
+            "salsa",
+            "guacamole"
+          ],
+          "desc": "Satisfy your cravings with Crispy Nacho Bites, a delightful combination of crunchy tortilla chips, melted cheddar cheese, zesty salsa, and creamy guacamole.",
+          "calories": 450
+        },
+        {
+          "id": 14,
+          "name": "Spicy Buffalo Wings",
+          "price": 12.99,
+          "weight": 120,
+          "ingredients": [
+            "chicken wings",
+            "buffalo sauce",
+            "blue cheese dressing",
+            "celery sticks"
+          ],
+          "desc": "Ignite your taste buds with Spicy Buffalo Wings, featuring succulent chicken wings drenched in spicy buffalo sauce, served with cool blue cheese dressing and crisp celery sticks.",
+          "calories": 620
+        },
+        {
+          "id": 15,
+          "name": "Mozzarella Sticks",
+          "price": 7.99,
+          "weight": 90,
+          "ingredients": ["mozzarella cheese", "breadcrumbs", "marinara sauce"],
+          "desc": "Indulge in the gooey goodness of Mozzarella Sticks, crispy on the outside and oozing with melted mozzarella cheese on the inside, served with savory marinara sauce.",
+          "calories": 380
+        },
+        {
+          "id": 16,
+          "name": "Vegetable Spring Rolls",
+          "price": 10.99,
+          "weight": 80,
+          "ingredients": ["cabbage", "carrots", "bell peppers", "soy sauce"],
+          "desc": "Experience the freshness of Vegetable Spring Rolls, filled with a vibrant mix of cabbage, carrots, and bell peppers, perfectly seasoned with soy sauce.",
+          "calories": 280
+        },
+        {
+          "id": 17,
+          "name": "Hummus Platter",
+          "price": 8.99,
+          "weight": 150,
+          "ingredients": [
+            "hummus",
+            "pita bread",
+            "cucumber slices",
+            "cherry tomatoes"
+          ],
+          "desc": "Delight your senses with the Hummus Platter, featuring creamy hummus paired with soft pita bread, crisp cucumber slices, and juicy cherry tomatoes.",
+          "calories": 320
+        },
+        {
+          "id": 18,
+          "name": "Fruit Skewers",
+          "price": 14.99,
+          "weight": 130,
+          "ingredients": ["strawberries", "pineapple chunks", "grapes", "kiwi"],
+          "desc": "Savor the sweetness of Fruit Skewers, a colorful assortment of strawberries, pineapple chunks, grapes, and kiwi beautifully arranged on skewers.",
+          "calories": 180
+        }
+      ]
+    },
+    "shawarmas": {
+      "title": "Shawarmas",
+      "items": [
+        {
+          "id": 19,
+          "name": "Classic Chicken Shawarma",
+          "price": 12.99,
+          "weight": 200,
+          "ingredients": [
+            "grilled chicken",
+            "garlic sauce",
+            "tahini",
+            "tomato",
+            "onion",
+            "pita bread"
+          ],
+          "desc": "Indulge in the Classic Chicken Shawarma, featuring succulent grilled chicken, garlic sauce, tahini, fresh tomato, onion, all wrapped in soft pita bread.",
+          "calories": 480
+        },
+        {
+          "id": 20,
+          "name": "Beef and Lamb Mix Shawarma",
+          "price": 14.99,
+          "weight": 220,
+          "ingredients": [
+            "beef",
+            "lamb",
+            "tzatziki sauce",
+            "cucumber",
+            "lettuce",
+            "flatbread"
+          ],
+          "desc": "Savor the rich flavors of the Beef and Lamb Mix Shawarma, a delicious blend of beef, lamb, tzatziki sauce, crisp cucumber, lettuce, all in a delightful flatbread.",
+          "calories": 580
+        },
+        {
+          "id": 21,
+          "name": "Vegetarian Falafel Shawarma",
+          "price": 11.99,
+          "weight": 180,
+          "ingredients": [
+            "falafel",
+            "hummus",
+            "cabbage",
+            "tomato",
+            "pickles",
+            "pita bread"
+          ],
+          "desc": "Enjoy the Vegetarian Falafel Shawarma, a delightful combination of crispy falafel, hummus, cabbage, fresh tomato, pickles, all nestled in soft pita bread.",
+          "calories": 420
+        },
+        {
+          "id": 22,
+          "name": "Spicy Harissa Chicken Shawarma",
+          "price": 13.99,
+          "weight": 210,
+          "ingredients": [
+            "spicy chicken",
+            "harissa sauce",
+            "garlic mayo",
+            "lettuce",
+            "red onion",
+            "flatbread"
+          ],
+          "desc": "Experience a kick of spice with the Spicy Harissa Chicken Shawarma, featuring flavorful spicy chicken, harissa sauce, garlic mayo, crisp lettuce, red onion, all in a tasty flatbread.",
+          "calories": 520
+        },
+        {
+          "id": 23,
+          "name": "Mediterranean Gyro Shawarma",
+          "price": 16.99,
+          "weight": 230,
+          "ingredients": [
+            "gyro meat",
+            "tzatziki sauce",
+            "tomato",
+            "onion",
+            "lettuce",
+            "pita bread"
+          ],
+          "desc": "Embark on a culinary journey with the Mediterranean Gyro Shawarma, a blend of gyro meat, tzatziki sauce, fresh tomato, onion, lettuce, all wrapped in soft pita bread.",
+          "calories": 620
+        },
+        {
+          "id": 24,
+          "name": "Turkish Doner Kebab Shawarma",
+          "price": 15.99,
+          "weight": 240,
+          "ingredients": [
+            "doner kebab meat",
+            "yogurt sauce",
+            "cucumber",
+            "tomato",
+            "onion",
+            "lavash"
+          ],
+          "desc": "Delight in the Turkish Doner Kebab Shawarma, featuring doner kebab meat, yogurt sauce, crisp cucumber, fresh tomato, onion, all wrapped in lavash.",
+          "calories": 580
+        }
+      ]
+    },
+    "pizzas": {
+      "title": "Pizzas",
+      "items": [
+        {
+          "id": 25,
+          "name": "Margherita Pizza",
+          "price": 10.99,
+          "weight": 300,
+          "ingredients": [
+            "tomato sauce",
+            "mozzarella cheese",
+            "fresh basil",
+            "olive oil"
+          ],
+          "desc": "Savor the simplicity of the Margherita Pizza, topped with rich tomato sauce, melted mozzarella cheese, fresh basil, and a drizzle of olive oil.",
+          "calories": 650
+        },
+        {
+          "id": 26,
+          "name": "Pepperoni Pizza",
+          "price": 13.99,
+          "weight": 350,
+          "ingredients": [
+            "tomato sauce",
+            "mozzarella cheese",
+            "pepperoni slices"
+          ],
+          "desc": "Indulge in the classic Pepperoni Pizza, featuring a flavorful combination of tomato sauce, gooey mozzarella cheese, and savory pepperoni slices.",
+          "calories": 820
+        },
+        {
+          "id": 27,
+          "name": "Vegetarian Supreme Pizza",
+          "price": 16.99,
+          "weight": 400,
+          "ingredients": [
+            "tomato sauce",
+            "mozzarella cheese",
+            "bell peppers",
+            "black olives",
+            "red onion",
+            "mushrooms"
+          ],
+          "desc": "Experience a burst of flavors with the Vegetarian Supreme Pizza, topped with tomato sauce, mozzarella cheese, bell peppers, black olives, red onion, and mushrooms.",
+          "calories": 920
+        },
+        {
+          "id": 28,
+          "name": "BBQ Chicken Pizza",
+          "price": 18.99,
+          "weight": 380,
+          "ingredients": [
+            "BBQ sauce",
+            "mozzarella cheese",
+            "grilled chicken",
+            "red onion",
+            "cilantro"
+          ],
+          "desc": "Delight your taste buds with the BBQ Chicken Pizza, featuring tangy BBQ sauce, melted mozzarella cheese, grilled chicken, red onion, and cilantro.",
+          "calories": 890
+        },
+        {
+          "id": 29,
+          "name": "Hawaiian Pizza",
+          "price": 14.99,
+          "weight": 320,
+          "ingredients": [
+            "tomato sauce",
+            "mozzarella cheese",
+            "ham",
+            "pineapple"
+          ],
+          "desc": "Transport yourself to the tropics with the Hawaiian Pizza, topped with tomato sauce, mozzarella cheese, ham, and juicy pineapple.",
+          "calories": 720
+        },
+        {
+          "id": 30,
+          "name": "Mushroom Truffle Pizza",
+          "price": 19.99,
+          "weight": 370,
+          "ingredients": [
+            "truffle oil",
+            "mozzarella cheese",
+            "mushrooms",
+            "parmesan"
+          ],
+          "desc": "Indulge in luxury with the Mushroom Truffle Pizza, featuring truffle oil, melted mozzarella cheese, savory mushrooms, and a sprinkle of parmesan.",
+          "calories": 950
+        }
+      ]
+    },
+    "deserts": {
+      "title": "Deserts",
+      "items": [
+        {
+          "id": 31,
+          "name": "Chocolate Lava Cake",
+          "price": 7.99,
+          "weight": 150,
+          "ingredients": ["chocolate", "butter", "sugar", "eggs", "flour"],
+          "desc": "Indulge in the rich and gooey Chocolate Lava Cake, made with luscious chocolate, butter, sugar, eggs, and a touch of flour for a decadent treat.",
+          "calories": 480
+        },
+        {
+          "id": 32,
+          "name": "New York Cheesecake",
+          "price": 9.99,
+          "weight": 180,
+          "ingredients": [
+            "cream cheese",
+            "sugar",
+            "eggs",
+            "sour cream",
+            "vanilla extract"
+          ],
+          "desc": "Experience the velvety delight of the New York Cheesecake, crafted with cream cheese, sugar, eggs, sour cream, and a hint of vanilla extract.",
+          "calories": 620
+        },
+        {
+          "id": 33,
+          "name": "Tiramisu",
+          "price": 11.99,
+          "weight": 200,
+          "ingredients": [
+            "ladyfingers",
+            "espresso",
+            "mascarpone cheese",
+            "cocoa powder"
+          ],
+          "desc": "Savor the classic Tiramisu, a heavenly blend of ladyfingers soaked in espresso, layered with mascarpone cheese, and dusted with cocoa powder.",
+          "calories": 540
+        },
+        {
+          "id": 34,
+          "name": "Strawberry Shortcake",
+          "price": 8.99,
+          "weight": 160,
+          "ingredients": [
+            "shortcake biscuits",
+            "whipped cream",
+            "fresh strawberries"
+          ],
+          "desc": "Delight in the freshness of Strawberry Shortcake, featuring sweet shortcake biscuits topped with fluffy whipped cream and fresh strawberries.",
+          "calories": 380
+        },
+        {
+          "id": 35,
+          "name": "Mango Sorbet",
+          "price": 5.99,
+          "weight": 120,
+          "ingredients": ["mango puree", "sugar", "lemon juice"],
+          "desc": "Cool down with Mango Sorbet, a refreshing treat made with luscious mango puree, sugar, and a hint of lemon juice for a burst of tropical flavor.",
+          "calories": 280
+        },
+        {
+          "id": 36,
+          "name": "Pecan Pie",
+          "price": 13.99,
+          "weight": 220,
+          "ingredients": [
+            "pecans",
+            "corn syrup",
+            "brown sugar",
+            "butter",
+            "eggs"
+          ],
+          "desc": "Indulge in the warm and nutty Pecan Pie, crafted with a rich filling of pecans, corn syrup, brown sugar, butter, and eggs, all in a flaky crust.",
+          "calories": 720
+        }
+      ]
+    },
+    "sauces": {
+      "title": "Sauces",
+      "items": [
+        {
+          "id": 37,
+          "name": "Classic Marinara Sauce",
+          "price": 2.99,
+          "weight": 250,
+          "ingredients": [
+            "tomatoes",
+            "olive oil",
+            "garlic",
+            "basil",
+            "oregano"
+          ],
+          "desc": "Enjoy the timeless taste of Classic Marinara Sauce, a savory blend of tomatoes, olive oil, garlic, basil, and oregano, perfect for pasta or pizza.",
+          "usage": "Ideal for pasta dishes, pizzas, and as a dipping sauce.",
+          "calories": 120
+        },
+        {
+          "id": 38,
+          "name": "Garlic Parmesan Alfredo",
+          "price": 3.49,
+          "weight": 200,
+          "ingredients": [
+            "butter",
+            "heavy cream",
+            "garlic",
+            "parmesan cheese",
+            "black pepper"
+          ],
+          "desc": "Indulge in the rich and creamy Garlic Parmesan Alfredo, a luxurious combination of butter, heavy cream, garlic, parmesan cheese, and a hint of black pepper.",
+          "usage": "Perfect for pasta, Alfredo dishes, or as a flavorful dip.",
+          "calories": 320
+        },
+        {
+          "id": 39,
+          "name": "Spicy Chipotle Mayo",
+          "price": 2.79,
+          "weight": 150,
+          "ingredients": [
+            "mayonnaise",
+            "chipotle peppers",
+            "lime juice",
+            "cumin"
+          ],
+          "desc": "Add a kick to your meals with Spicy Chipotle Mayo, a zesty blend of mayonnaise, chipotle peppers, lime juice, and cumin.",
+          "usage": "Great for sandwiches, burgers, and as a spicy dipping sauce.",
+          "calories": 90
+        },
+        {
+          "id": 40,
+          "name": "Sweet Teriyaki Glaze",
+          "price": 3.99,
+          "weight": 180,
+          "ingredients": [
+            "soy sauce",
+            "brown sugar",
+            "ginger",
+            "garlic",
+            "cornstarch"
+          ],
+          "desc": "Savor the sweet and savory flavors of Sweet Teriyaki Glaze, crafted with soy sauce, brown sugar, ginger, garlic, and a touch of cornstarch for thickness.",
+          "usage": "Perfect as a glaze for grilled meats, stir-fries, and as a dipping sauce.",
+          "calories": 150
+        },
+        {
+          "id": 41,
+          "name": "Zesty Pesto Sauce",
+          "price": 3.29,
+          "weight": 160,
+          "ingredients": [
+            "fresh basil",
+            "pine nuts",
+            "parmesan cheese",
+            "garlic",
+            "olive oil"
+          ],
+          "desc": "Elevate your dishes with Zesty Pesto Sauce, a vibrant blend of fresh basil, pine nuts, parmesan cheese, garlic, and olive oil.",
+          "usage": "Ideal for pasta, sandwiches, and as a flavorful condiment.",
+          "calories": 180
+        },
+        {
+          "id": 42,
+          "name": "Creamy Sriracha Aioli",
+          "price": 3.79,
+          "weight": 170,
+          "ingredients": [
+            "mayonnaise",
+            "sriracha sauce",
+            "garlic",
+            "lemon juice"
+          ],
+          "desc": "Spice up your meals with Creamy Sriracha Aioli, a creamy fusion of mayonnaise, sriracha sauce, garlic, and a hint of lemon juice.",
+          "usage": "Perfect for dipping, as a spread, or as a flavorful topping.",
+          "calories": 160
+        }
+      ]
+    }
+  }
+]

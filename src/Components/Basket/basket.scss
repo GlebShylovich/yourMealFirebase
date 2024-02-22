@@ -1,0 +1,106 @@
+.basket {
+    width: 300px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #FFF;
+    padding: 24px 16px;
+    margin-top: 60px;
+
+
+    .basket__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .basket__title {
+            color: #000;
+            font-family: Nunito;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 100%;
+        }
+
+        .basket__amount {
+            width: 41px;
+            height: 20px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #F2F2F3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .basket__list {
+        margin: 14px 0;
+        border-bottom: 1px solid #F2F2F3;
+    }
+
+    .basket__total {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        justify-content: space-between;
+
+        .basket__total-text {
+            color: #000;
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+        }
+
+        .basket__total-price {
+            color: #000;
+            text-align: right;
+            font-family: Nunito;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+        }
+    }
+
+    .basket__btn {
+        display: flex;
+        padding: 11px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: #FF7020;
+        display: block;
+        border: 1px solid #FF7020;
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        width: 100%;
+    }
+
+    .basket__delivery {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+
+        .basket__delivery-text {
+            color: #000;
+            font-family: Nunito;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+.emptyBasket{
+    margin: 40px auto;
+    text-align: center;
+}
