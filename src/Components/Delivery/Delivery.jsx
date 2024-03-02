@@ -14,7 +14,7 @@ export default function Delivery({closeModal, addDeliveryInfo}) {
   };
 
   return (
-    <div className="delivery__overlay">
+    <div className="delivery-overlay">
       <div className="delivery">
         <button className='closeBtn' onClick={closeModal}>
           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">

@@ -23,3 +23,16 @@ body {
   width: 100%;
   position: relative;
 }
+
+@media(max-width: 800px){
+  [class*="__container"] {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 400px){
+  [class*="__container"] {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

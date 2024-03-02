@@ -1,6 +1,6 @@
 import './header.scss';
 import logo from '../../assets/img/promo-burger.png';
-import headerEllipce from '../../assets/img/circle.png';
+import headerEllipce from '../../assets/img/bg.png';
 
 export default function Header() {
     return (

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-      <div className="footer__top-box">
+        <div className="footer__top-box">
           <div className="footer__logo">
             <svg
               xmlns="http://www.w3.org/2000/svg"
