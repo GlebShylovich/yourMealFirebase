@@ -5,194 +5,197 @@
   height: 100vh;
 
   .formRegister__container {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 684px;
-    height: 432px;
-    border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 684px;
+      height: 432px;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  .form__img {
+      flex-basis: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #FFAB08;
+      height: 100%;
+      border-radius: 12px 0 0 12px;
   }
 
   form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background: #f9f9f9;
-    border-radius: 0 12px 12px 0;
-    height: 100%;
-    flex-basis: 50%;
-    padding: 30px 24px;
-
-    h1 {
-      font-family: "Nunito", sans-serif;
-      font-size: 24px;
-      font-weight: 600;
-      line-height: 24px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #000000;
-      margin-bottom: 10px;
-    }
-
-    .inputBlock {
-      align-items: center;
-      width: 100%;
       display: flex;
       flex-direction: column;
-      position: relative;
+      align-items: start;
+      justify-content: space-between;
+      background: #F9f9f9;
+      border-radius: 0 12px 12px 0;
+      height: 100%;
+      flex-basis: 50%;
+      padding: 24px;
 
-      input {
-        height: 40px;
-        width: 100%;
-        background: #ffffff;
-        border: 2px solid #f2f2f3;
-        border-radius: 12px;
-        font-family: "Nunito", sans-serif;
-        outline: none;
-        transition: 0.3s all ease-in-out;
-        margin: 10px 0;
-        font-family: Nunito;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        padding: 0 0 0 12px;
+      h1 {
+          font-family: "Nunito", sans-serif;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #000000;
+          margin-bottom: 10px;
 
-        &::placeholder {
-          color: #b1b1b1;
-        }
-
-        &:focus {
-          border: 2px solid #ff7020;
-        }
       }
 
-      button {
-        width: 100%;
-        height: 40px;
-        border-radius: 12px;
-        border: 2px solid #ff7020;
-        background: #ff7020;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Nunito;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #ffffff;
-        margin: 10px 0;
-        transition: 0.3s all ease-in-out;
-
-        &:hover {
-          background: #ffab08;
-          border: 2px solid #ffab08;
-        }
-
-        &:active {
-          background: #f86310;
-          border: 2px solid #f86310;
-        }
-      }
-
-      .errorText {
-        position: absolute;
-        bottom: 55px;
-        left: 0;
-        color: #f86310;
-        font-size: 10px;
-        font-weight: 600;
-      }
-    }
-
-    span {
-      font-family: Nunito;
-      font-size: 12px;
-      font-weight: 600;
-      line-height: 16px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #000000;
-      margin: 10px 0;
-      width: 100%;
-      text-align: center;
-    }
-
-    a {
-      color: #ff7020;
-      text-decoration: none;
-      font-weight: 600;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .form__block {
-      .formRegister__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 342px;
-        height: 332px;
-
-        .form__img {
-          display: none;
-        }
-
-        form {
-          border-radius: 12px;
-          flex-basis: 100%;
+      .inputBlock { 
           align-items: center;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 400px) {
-    .form__block {
-      .formRegister__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .form__img {
-          display: none;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 380px) {
-    .form__block {
-      .formRegister__container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 10px;
-
-        form {
           width: 100%;
-          padding: 24px 10px;
+          display: flex;
+          flex-direction: column;
+          input {
+              height: 40px;
+              width: 100%;
+              background: #FFFFFF;
+              border: 2px solid #F2F2F3;
+              border-radius: 12px;
+              font-family: "Nunito", sans-serif;
+              outline: none;
+              transition: 0.3s all ease-in-out;
+              margin: 10px 0;
+              font-family: Nunito;
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 16px;
+              letter-spacing: 0em;
+              text-align: left;
+              padding: 0 0 0 12px;
 
-          & input {
-            max-width: 100%;
+              &::placeholder {
+                  color: #B1B1B1;
+              }
+
+              &:focus {
+                  border: 2px solid #FF7020;
+              }
           }
 
-          & button {
-            max-width: 100%;
-          }
-        }
+          button {
+              width: 100%;
+              height: 40px;
+              border-radius: 12px;
+              border: 2px solid #FF7020;
+              background: #FF7020;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-family: Nunito;
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 16px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #FFFFFF;
+              margin: 10px 0;
+              transition: 0.3s all ease-in-out;
 
-        .form__img {
-          display: none;
-        }
+              &:hover {
+                  background: #FFAB08;
+                  border: 2px solid #FFAB08;
+              }
+
+              &:active {
+                  background: #F86310;
+                  border: 2px solid #F86310;
+              }
+          }
       }
-    }
+
+      span {
+          font-family: Nunito;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #000000;
+          margin: 10px 0;
+          width: 100%;
+          text-align: center;
+      }
+
+      a {
+          color: #FF7020;
+          text-decoration: none;
+          font-weight: 600;
+      }
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .form__block {
+
+      .formRegister__container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 342px;
+
+          .form__img {
+              display: none;
+          }
+
+          form {
+              border-radius: 12px;
+              flex-basis: 100%;
+              align-items: center;
+          }
+      }
+  }
+}
+
+@media (max-width: 400px) {
+  .form__block {
+
+      .formRegister__container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .form__img {
+              display: none;
+          }
+      }
+  }
+}
+
+@media (max-width: 380px) {
+  .form__block {
+      .formRegister__container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0 10px;
+
+          form {
+              width: 100%;
+              padding: 24px 10px;
+
+              & input {
+                  max-width: 100%;
+              }
+
+              & button {
+                  max-width: 100%;
+              }
+          }
+
+          .form__img {
+              display: none;
+          }
+      }
   }
 }

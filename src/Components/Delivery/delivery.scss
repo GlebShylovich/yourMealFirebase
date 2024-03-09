@@ -40,25 +40,31 @@
     gap: 10px;
 
     & input {
-      width: 294px;
       height: 40px;
-      top: 248px;
-      left: 366px;
-      padding: 12px;
+      width: 100%;
+      background: #FFFFFF;
+      border: 2px solid #F2F2F3;
       border-radius: 12px;
-      border: 1px solid #f2f2f3;
-      gap: 10px;
+      font-family: "Nunito", sans-serif;
       outline: none;
+      transition: 0.3s all ease-in-out;
+      gap: 10px;
+      font-family: Nunito;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding: 0 0 0 12px;
 
       &::placeholder {
-        font-family: Nunito;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
+          color: #B1B1B1;
       }
-    }
+
+      &:focus {
+          border: 2px solid #FF7020;
+      }
+  }
 
     & label {
       font-family: Nunito;
@@ -82,23 +88,34 @@
     }
 
     & button {
-      width: 294px;
+      width: 100%;
       height: 40px;
+      border-radius: 12px;
+      border: 2px solid #FF7020;
+      background: #FF7020;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 11px 32px 11px 32px;
-      border-radius: 12px;
-      gap: 10px;
-      background: #ff7020;
-      border: 1px solid #ff7020;
       font-family: Nunito;
-      font-size: 16px;
-      font-weight: 400;
-      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
       line-height: 16px;
       letter-spacing: 0em;
-    }
+      text-align: left;
+      color: #FFFFFF;
+      gap: 10px;
+      transition: 0.3s all ease-in-out;
+
+      &:hover {
+          background: #FFAB08;
+          border: 2px solid #FFAB08;
+      }
+
+      &:active {
+          background: #F86310;
+          border: 2px solid #F86310;
+      }
+  }
   }
 }
 

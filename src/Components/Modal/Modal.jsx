@@ -1,7 +1,6 @@
 import "./modal.scss";
 
 export default function Modal({ closeModal, content, addBasket }) {
-  console.log(content);
   return (
     <div className="modal-overlay" onClick={closeModal}>
       <div className="modal">

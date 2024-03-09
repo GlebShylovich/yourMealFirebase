@@ -11,10 +11,10 @@ import Modal from "../../Components/Modal/Modal";
 import tabsData from "../../tabs.json";
 import { tabArrImg } from "../../picture";
 import "./page.scss";
-import right from '../../assets/img/angle-small-right.png'
-import doubleRight from '../../assets/img/angle-double-small-right.png'
-import left from '../../assets/img/angle-small-left.png'
-import doubleLeft from '../../assets/img/angle-double-small-left.png'
+import right from "../../assets/img/angle-small-right.png";
+import doubleRight from "../../assets/img/angle-double-small-right.png";
+import left from "../../assets/img/angle-small-left.png";
+import doubleLeft from "../../assets/img/angle-double-small-left.png";
 
 export default function Page({
   pageTitle,
@@ -57,7 +57,6 @@ export default function Page({
       navigate("/login");
     }
   }, [auth.currentUser]);
-
   function addImgToTabs() {
     const newArr = arr.map((item, index) => ({
       ...item,
@@ -137,11 +136,14 @@ export default function Page({
                     <img src={left} alt="" />
                   </li>
                   {Array.from({ length: totalPages }, (_, index) => (
-                    <li onClick={() => paginate(index + 1)}
-                    className={`page-item ${
-                      currentPage === index + 1 ? "active" : ""
-                    }`} key={index}>
-                        {index + 1}
+                    <li
+                      onClick={() => paginate(index + 1)}
+                      className={`page-item ${
+                        currentPage === index + 1 ? "active" : ""
+                      }`}
+                      key={index}
+                    >
+                      {index + 1}
                     </li>
                   ))}
                   <div

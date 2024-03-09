@@ -2,7 +2,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import picture from "../../assets/img/pic.png";
-import "./register.scss";
+import "./register.scss"
 export default function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
